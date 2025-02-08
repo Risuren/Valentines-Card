@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Card</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Dancing+Script:wght@400..700&family=Lexend+Exa:wght@100..900&display=swap" rel="stylesheet">
+
+    
+</head>
+
+
+
+<body>
+
+    <div class="container">
+        <div class="card-wrapper">
+            <div class="card">
+                <div class="front"></div>
+    
+                <div class="back">
+                    <img src="https://i.pinimg.com/1200x/04/2e/b9/042eb9bdd0beb9660f7a11fa2d789e17.jpg" alt="Pleasee?">
+                    <div class="text">Will You Be My <span>Valentine</span>?</div>
+                    <div class="btn">
+                        <button class="yes-btn" onclick="window.location.href='yes.html'">YES</button>
+                        <button class="no-btn">NO</button>
+
+                        <!--<a class="yes-btn" href="yes.html">YES</a>
+                        <a class="no-btn" href="#" id="move">NO</a>-->
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+
+        <input type="checkbox" id="flip" class="flip-button">
+        <label for="flip" class="flip-button">Flip the card!</label>
+        
+    </div>
+
+    <script src="./script.js"></script>
+    
+</body>
+</html>
